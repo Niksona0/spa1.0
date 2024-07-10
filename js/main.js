@@ -16,7 +16,15 @@ function closeModal() {
         openModal.classList.remove('open');
         setTimeout(() => {
             openModal.style.display = 'none'; // Hide the modal after transition
+            
+            // Pause and reset all videos in the modal
+            const videos = openModal.querySelectorAll('video');
+            videos.forEach(video => {
+                video.pause();
+                video.currentTime = 0; // Reset video to the beginning
+            });
         }, 800); // Delay must match the CSS transition duration
+        
         document.body.classList.remove('jw-modal-open');
     }
 }
@@ -29,6 +37,11 @@ window.addEventListener('load', function() {
         }
     });
 });
+
+(function ($) {
+    // Your jQuery logic here if needed
+})(jQuery);
+
 
 (function ($) {
 

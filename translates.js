@@ -144,18 +144,18 @@ const translations = {
     // about 
     masseuse: "Masseuse",
     khBakuradze: "Khatia Bakuradze",
-    aboutKhatia: "Certified Skilled Massage Therapist",
-    qualifications: "Massage Coach",
-    fPlace: "15 Years Of Work Experience.",
-    sPlace: "Specializing In Various Techniques Such As:",
-    certified: "Facial Rejuvenation Massage",
-    bom: "Body Oil Massage",
-    gusha: "Gua Sha",
-    tmas: "Thai Massage",
-    cumasag: "Cupping",
-    wwvh: "Worked With Various Hotels",
-    mhc: "Many Happy Customers",
-    wowmc: "Winner of World Massage Championship",
+    aboutKhatia: "Certified Skilled massage therapist.",
+    qualifications: "Massage coach.",
+    fPlace: "15 years of work experience.",
+    sPlace: "Specializing in various techniques such as:",
+    certified: "Certified Masseuse",
+    bom: "Body oil massage;",
+    gusha: "Gua Sha;",
+    tmas: "Thai massage;",
+    cumasag: "cupping;",
+    wwvh: "Worked with various hotels;",
+    mhc: "Many happy customers;",
+    wowmc: "Winner of World Massage Championship;",
     cN: "Contact Now",
 
     // Second carousel
@@ -177,13 +177,13 @@ const translations = {
     hs: "Hotels Served",
     hotelName: "Hotel Name",
 
-    testimonial1: "InterContinental Athens",
+    testimonial1: "Testimonial from Hotel InterContinental Athens",
     info1: "Khatia Bakuradze has been an incredible addition to our spa team. Her expertise in various massage techniques, especially her award-winning Lomi-Lomi massage, has received rave reviews from our guests. Her professionalism and dedication to providing exceptional service make her a true asset to our hotel.",
 
-    testimonial2: "Masazaki in Glifada",
+    testimonial2: "Testimonial from Masazaki in Glifada",
     info2: "Since joining us, Khatia has brought a new level of excellence to our spa services. Her skill in traditional Thai massage and therapeutic treatments has made a significant impact on our clients' well-being. We highly recommend Khatia for her outstanding commitment to holistic health and relaxation.",
 
-    testimonial3: "Royal Mosxoy Spa",
+    testimonial3: "Testimonial from Royal Mosxoy Spa",
     info3: "We are thrilled to have Khatia Bakuradze as part of our team. Her achievements, including her top honors at the World Massage Championship, speak volumes about her talent and dedication. Our clients consistently praise her deep tissue massages and facial rejuvenation treatments. Khatia truly elevates our spa experience.",
 
     // SS
@@ -210,6 +210,13 @@ const translations = {
 
     // a
     on: "Order Now",
+    oNow: "Order Now",
+
+    // Placeholders
+    usrplaceholder: "Your Name",
+    emailplaceholder: "Your Email",
+    dataplaceholder: "Select Date",
+    timeplaceholder: "Select Time",
 
   },
   el: {
@@ -388,13 +395,13 @@ const translations = {
     hs: "Ξενοδοχεία που έχει εργαστεί",
     hotelName: "Όνομα Ξενοδοχείου",
 
-    testimonial1: "InterContinental Athens",
+    testimonial1: "Μαρτυρία από το Ξενοδοχείο InterContinental Αθηνών",
     info1: "Η Χατία Μπακουράτζε αποτελεί μια απίστευτη προσθήκη στην ομάδα μας στο σπα. Η ειδίκευσή της σε διάφορες τεχνικές μασάζ, ιδιαίτερα το βραβευμένο μασάζ Lomi-Lomi, έχει λάβει εξαιρετικές κριτικές από τους επισκέπτες μας. Η επαγγελματικότητά της και η αφοσίωσή της στην παροχή εξαιρετικής εξυπηρέτησης την καθιστούν πραγματικό πλεονέκτημα για το ξενοδοχείο μας.",
 
-    testimonial2: "Masazaki in Glifada",
+    testimonial2: "Μαρτυρία από το Masazaki στη Γλυφά",
     info2: "Από τη στιγμή που έγινε μέρος της ομάδας μας, η Χατία έχει φέρει ένα νέο επίπεδο αριστείας στις υπηρεσίες του σπα μας. Η ειδίκευσή της στο παραδοσιακό Ταϊλανδέζικο μασάζ και στις θεραπευτικές θεραπείες έχει κάνει σημαντική επίδραση στην ευημερία των πελατών μας. Συνιστούμε θερμά την Χατία για την εξαιρετική της αφοσίωση στην ολιστική υγεία και χαλάρωση.",
 
-    testimonial3: "Royal Mosxoy Spa",
+    testimonial3: "Μαρτυρία από το Royal Mosxoy Spa",
     info3: "Είμαστε ενθουσιασμένοι που έχουμε την Χατία Μπακουράτζε στην ομάδα μας. Τα επιτεύγματά της, συμπεριλαμβανομένων των κορυφαίων της διακρίσεων στο Παγκόσμιο Πρωτάθλημα Μασάζ, μιλούν από μόνα τους για το ταλέντο και την αφοσίωσή της. Οι πελάτες μας συνεχώς επαινούν τα μασάζ βαθιάς ιστού και τις θεραπείες αναζωογόνησης προσώπου που προσφέρει. Η Χατία πραγματικά αναβαθμίζει την εμπειρία μας στο σπα.",
 
     // SS
@@ -421,32 +428,32 @@ const translations = {
 
     // a
     on: "Παραγγείλτε τώρα",
+    oNow: "Παράγγειλε τώρα",
 
-    // footer 
-    footer_p: "Ακολουθήστε μας στα μεσα ΚΟΙΝΩΝΙΚΗΣ ΔΙΚΤΥΩΣΗΣ για ενημερώσεις και προσφορές! Βρείτε την τοποθεσία, το ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ και τον αριθμό τηλεφώνου μας παρακάτω.",
+    // Placeholders
+    usrplaceholder: "Το όνομα σου",
+    emailplaceholder: "Η διεύθυνση του ηλεκτρονικού σου ταχυδρομείου",
+    dataplaceholder: "Επιλέξτε Ημερομηνία",
+    timeplaceholder: "Επιλέξτε Ώρα",
   }
 };
-
-// const fontFamilies = {
-//   el: "'Bona Nova', serif",
-// };
 
 const switchLanguage = (lang) => {
   const elements = document.querySelectorAll('[data-translate]');
   elements.forEach(element => {
     const key = element.getAttribute('data-translate');
     if (translations[lang][key]) {
-      element.innerText = translations[lang][key];
+      if (element.tagName.toLowerCase() === 'input' || element.tagName.toLowerCase() === 'textarea') {
+        element.placeholder = translations[lang][key];
+      } else {
+        element.innerText = translations[lang][key];
+      }
     }
-  })
-
-  // Update the font family
-  // document.body.style.fontFamily = fontFamilies[lang] || fontFamilies.en; 
+  });
 };
 
-
 const changeLanguage = (event) => {
-  const selectedLanguage = event.target.getAttribute('data-lang')
+  const selectedLanguage = event.target.getAttribute('data-lang');
   switchLanguage(selectedLanguage);
 };
 
