@@ -75,6 +75,27 @@ p, li {
   font-family: "Poppins", sans-serif !important;
 }
 
+.btn-hover {
+  background-color: #E09145 !important;
+  color: #11212d !important;
+  transition: .3s !important;
+  font-weight: 400 !important;
+  font-family: "Poppins";
+
+}
+
+.btn-hover:hover {
+  background-color: #11212d !important;
+  color: #E09145 !important;
+}
+
+.modal-text p {
+  max-height: 80%;
+  font-size: 1.05rem;
+  line-height: 25px;
+  color: #11212d !important;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -9917,6 +9938,7 @@ button {
   padding: 20px;
   background: #fff;
   overflow: hidden;
+  position: relative;
   display: flex;
 }
 
@@ -9939,17 +9961,6 @@ body.jw-modal-open {
 .jw-modal .jw-modal-body p {
   color: black;
   position: relative;
-}
-
-.jw-modal .jw-modal-body button {
-  position: relative;
-  height: 50px;
-  background-color: #E09145;
-  color: black;
-  border-radius: 0%;
-  border: none;
-  outline: none;
-  text-align: center;
 }
 
 .modal-button {
@@ -10134,6 +10145,7 @@ body.jw-modal-open {
 @media (max-width: 900px) {
   .jw-modal-body {
     max-width: 80% !important;
+    height: 70%;
     flex-direction: column;
     overflow-y: scroll;
     align-items: center;
@@ -10141,6 +10153,7 @@ body.jw-modal-open {
 
   .jw-modal-body img {
     margin: 0 auto 25px auto;
+    width: 100%;
   }
 }
 
@@ -10194,7 +10207,7 @@ body.jw-modal-open {
   right: 15px;
   top: 10px;
   font-weight: bold;
-  background-color: transparent;
+  background-color: transparent !important;
   color: gray !important;
   outline: none;
   border: none;
