@@ -511,7 +511,7 @@ h6,
   font-size: 4.7rem;
   font-weight: 300;
   line-height: 1.2;
-  font-family: "Dancing Script", cursive;
+  text-transform: uppercase !important;
 }
 
 @media (max-width: 1200px) {
@@ -4383,12 +4383,15 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: none;
+  outline: none;
 }
 
 .navbar-toggler:hover,
 .navbar-toggler:focus {
   text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 .navbar-toggler-icon {
@@ -4399,6 +4402,8 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+  position: absolute;
+  right: 50px;
 }
 
 @media (max-width: 575.98px) {
@@ -4659,7 +4664,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23E09145' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
 }
 
 .navbar-light .navbar-text {
@@ -10039,6 +10045,7 @@ body.jw-modal-open {
 }
 
 .hero-top-txt {
+  font-family: "Poppins" !important;
   margin-bottom: 30px;
 }
 
@@ -10058,10 +10065,12 @@ body.jw-modal-open {
   }
 
   .navbar {
-    justify-content: space-around;
+    justify-content: center;
   }
   .logo {
     width: 170px;
+    position: relative;
+    left: 20px;
   }
 
   .about-text {
@@ -10236,5 +10245,10 @@ body.jw-modal-open {
   }
   .s--magic {
     display: none;
+  }
+  .flags {
+    position: absolute;
+    right: 50px;
+    top: 150px;
   }
 }
