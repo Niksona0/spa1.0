@@ -241,11 +241,10 @@
                 </div>
             </div>
             <div class="service-item position-relative" data-name="p-7">
-                <img class="img-fluid" src="img/japanesem.jpg" alt="">
+                <img class="img-fluid" src="img/Thai-herbal-ball.png" alt="">
                 <div class="service-text text-center">
-                    <h4 data-translate="japanese" class="text-primary font-weight-bold px-3">Japanese massage</h4>
-                    <p data-translate="japaneseMassage" class="text-white px-3 mb-3">Japanese massage blends ancient
-                        traditions with modern therapies for relaxation and healing.</p>
+                    <h4 data-translate="japanese" class="text-primary font-weight-bold px-3">HERBALBALL MASSAGE</h4>
+                    <p data-translate="japaneseMassage" class="text-white px-3 mb-3">Herbal ball massage uses heated herbal compresses to relieve muscle pain and enhance relaxation.</p>
                     <div class="fixer w-100 bg-white text-center p-4">
                         <button data-translate="bInfo" onclick="openModal('modal-7')" class="modal-button">info</button>
                     </div>
@@ -562,15 +561,11 @@
         <div id="modal-7" class="jw-modal">
             <div class="movement">
                 <div class="jw-modal-body">
-                    <img class="img-fluid" src="img/japanesem.png" alt="">
+                    <img class="img-fluid" src="img/Thai-herbal-ball.png" alt="">
                     <div class="modal-text">
-                        <h1 data-translate="japanese">Japanese massage
+                        <h1 data-translate="japanese">HerbalBall massage
                         </h1>
-                        <p data-translate="jBig" style=>Japanese massage techniques like Shiatsu and Anma focus on
-                            relieving tension and promoting relaxation through pressure points and kneading. Shiatsu
-                            uses finger and palm pressure to enhance energy flow, while Anma incorporates kneading and
-                            tapping for muscle relaxation and improved circulation. Both methods draw from traditional
-                            Japanese healing practices for holistic well-being.</p>
+                        <p data-translate="jBig" style=>The massage is done with hot packs containing herbs. The technique followed is muscle relaxing, as the heat of the bags placed on the body, offer muscle relaxation and rejuvenation, removing the stress, concepts and anxiety of everyday life..</p>
                         <a href="#contact"><button data-translate="oNow" class="btn btn-hover"
                                 onclick="closeModal()">Order Now</button></a>
                     </div>
@@ -886,6 +881,24 @@
             </div>
         </div>
 
+        <div id="modal-24" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/buccal.jpg" alt="">
+                    <div class="modal-text">
+                        <h1 data-translate="buccal">Buccal face massage
+                        </h1>
+                        <p data-translate="buccalBig" style=>There are many innovative beauty and wellness solutions available today and one of these is buccal massage What Is Buccal Massage?
+                            Buccal massage (also called intraoral massage) involves massaging pressure points inside the mouth to stimulate the muscles and ligaments in the buccal fat pad (between the cheeks and the jowls) to tighten and contour the area. When done regularly, this procedure can provide similar results to those of dermal fillers, but without the needles and potential side effects. The treatment typically involves massage of other facial areas as well. When facial muscles stiffen due to stress, injury, an overactive jaw, or a medical disorder, they obstruct blood flow, lymphatic circulation, and detoxication. Tissues don’t receive enough nutrients and oxygen, resulting in water retention, puffiness, a dull complexion, and drooping cheeks and jowls. Buccal massage resolves these issues, providing numerous skin benefits.
+                        </p>
+                        <a href="#contact"><button data-translate="oNow" class="btn btn-hover"
+                                onclick="closeModal()">Order Now</button></a>
+                    </div>
+                    <button class="btn-close" onclick="closeModal()">X</button>
+                </div>
+            </div>
+        </div>
+
         <!-- Pricing Start -->
         <div class="container-fluid bg-pricing" id="pricing">
             <div class="container">
@@ -1033,7 +1046,7 @@
                 <div class="p-5 my-5" style="background: rgba(33, 30, 28, 0.7);">
                     <h1 data-translate="Appointment" class="text-primary text-center mb-4">Make Appointment</h1>
 
-                    <form action="https://getform.io/f/zazkknyb" method="POST" target="_blank">
+                    <form action="https://getform.io/f/broloxka" method="POST" target="_blank">
                         <div class="form-row">
                             <div class="col-sm-6">
                                 <div class="form-group">
@@ -1171,22 +1184,22 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         const form = document.getElementById("form");
-        form.addEventListener("submit", formSubmit);
+    form.addEventListener("submit", formSubmit);
 
-        function formSubmit(e) {
-            e.preventDefault();
-            const formData = new FormData(e.target);
+    function formSubmit(e) {
+        e.preventDefault();
+        const formData = new FormData(e.target);
 
-            fetch("https://getform.io/f/zazkknyb", {
-                method: "POST",
-                body: formData,
-                headers: {
-                    "Accept": "application/json",
-                },
-            })
-                .then(response => console.log(response))
-                .catch(error => console.log(error))
-        }
+        fetch("https://getform.io/f/broloxka", {
+            method: "POST",
+            body: formData,
+            headers: {
+                "Accept": "application/json",
+            },
+        })
+        .then(response => console.log(response))
+        .catch(error => console.log(error))
+    }
     </script>
 
 </body>

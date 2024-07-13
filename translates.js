@@ -41,8 +41,8 @@ const translations = {
     medical: "Medical treatments",
     medicalMassage: "Medical treatments include medications, surgeries, and preventive care for managing and curing diseases.",
 
-    japanese: "Japanese massage",
-    japaneseMassage: "Japanese massage blends ancient traditions with modern therapies for relaxation and healing.",
+    japanese: "Herbal Ball Massage",
+    japaneseMassage: "Herbal ball massage uses heated herbal compresses to relieve muscle pain and enhance relaxation.",
 
     swedish: "Swedish massge",
     swedishMassage: "Swedish massage relaxes muscles with gentle pressure and long strokes, promoting well-being.",
@@ -107,7 +107,7 @@ const translations = {
     
     mBig: " Medical treatments like medications, surgeries, therapies, and procedures manage, cure, or alleviate symptoms of illnesses. Examples include cardiovascular care with medications and surgeries, cancer treatments such as chemotherapy or surgery, mental health therapies like psychotherapy, and diabetes management involving insulin therapy and diet monitoring.",
    
-    jBig: "Japanese massage techniques like Shiatsu and Anma focus on relieving tension and promoting relaxation through pressure points and kneading. Shiatsu uses finger and palm pressure to enhance energy flow, while Anma incorporates kneading and tapping for muscle relaxation and improved circulation. Both methods draw from traditional Japanese healing practices for holistic well-being.",
+    jBig: "The massage is done with hot packs containing herbs. The technique followed is muscle relaxing, as the heat of the bags placed on the body, offer muscle relaxation and rejuvenation, removing the stress, concepts and anxiety of everyday life.",
    
     sBig: "Swedish massage is a popular therapeutic technique involving long strokes, kneading, and circular movements to relax muscles, improve circulation, and promote overall relaxation. It's known for its gentle yet effective approach in reducing tension and enhancing well-being.",
    
@@ -139,7 +139,7 @@ const translations = {
 
     faceBig: "Face sculpture treatments involve techniques to contour and enhance facial features, using massages, tools, or products to improve skin tone, reduce puffiness, and promote a more sculpted appearance.",
 
-    buccBig: "Buccal face massage involves massaging the cheeks and jawline to promote relaxation, improve circulation, and reduce tension in facial muscles, enhancing overall facial contour and appearance.",
+    buccalBig: "There are many innovative beauty and wellness solutions available today and one of these is buccal massage. Tissues don’t receive enough nutrients and oxygen, resulting in water retention, puffiness, a dull complexion, and drooping cheeks and jowls. Buccal massage resolves these issues, providing numerous skin benefits.",
 
     // about 
     masseuse: "Masseuse",
@@ -177,13 +177,13 @@ const translations = {
     hs: "Hotels Served",
     hotelName: "Hotel Name",
 
-    testimonial1: "Testimonial from Hotel InterContinental Athens",
+    testimonial1: "Hotel InterContinental Athens",
     info1: "Khatia Bakuradze has been an incredible addition to our spa team. Her expertise in various massage techniques, especially her award-winning Lomi-Lomi massage, has received rave reviews from our guests. Her professionalism and dedication to providing exceptional service make her a true asset to our hotel.",
 
-    testimonial2: "Testimonial from Masazaki in Glifada",
+    testimonial2: "Masazaki in Glifada",
     info2: "Since joining us, Khatia has brought a new level of excellence to our spa services. Her skill in traditional Thai massage and therapeutic treatments has made a significant impact on our clients' well-being. We highly recommend Khatia for her outstanding commitment to holistic health and relaxation.",
 
-    testimonial3: "Testimonial from Royal Mosxoy Spa",
+    testimonial3: "Royal Mosxoy Spa",
     info3: "We are thrilled to have Khatia Bakuradze as part of our team. Her achievements, including her top honors at the World Massage Championship, speak volumes about her talent and dedication. Our clients consistently praise her deep tissue massages and facial rejuvenation treatments. Khatia truly elevates our spa experience.",
 
     // SS
@@ -261,8 +261,8 @@ const translations = {
     medical: "Ιατρικές θεραπείες",
     medicalMassage: "Οι ιατρικές θεραπείες περιλαμβάνουν φάρμακα, χειρουργικές επεμβάσεις και προληπτική φροντίδα για τη διαχείριση και θεραπεία ασθενειών.",
 
-    japanese: "Η ιαπωνική μασάζ",
-    japaneseMassage: "Το ιαπωνικό μασάζ συνδυάζει αρχαίες παραδόσεις με σύγχρονες θεραπείες για χαλάρωση και θεραπεία.",
+    japanese: "ΜΑΣΑΖ με ΒΟΤΑΝΑ ΜΠΑΛΑ",
+    japaneseMassage: "Το μασάζ με βότανα με μπάλα χρησιμοποιεί θερμαινόμενες κομπρέσες με βότανα για την ανακούφιση του μυϊκού πόνου και την ενίσχυση της χαλάρωσης.",
 
     swedish: "Σουηδικό μασάζ",
     swedishMassage: "Το Σουηδικό μασάζ χαλαρώνει τους μύες με απαλή πίεση και μακριές κινήσεις, προωθώντας την ευημερία.",
@@ -326,7 +326,7 @@ const translations = {
     
     mBig: "Ιατρικές θεραπείες όπως φάρμακα, χειρουργικές επεμβάσεις, θεραπείες και διαδικασίες διαχειρίζονται, θεραπεύουν ή ανακουφίζουν τα συμπτώματα ασθενειών. Παραδείγματα περιλαμβάνουν καρδιαγγειακή φροντίδα με φάρμακα και χειρουργικές επεμβάσεις, θεραπείες καρκίνου όπως χημειοθεραπεία ή χειρουργική επέμβαση, θεραπείες ψυχικής υγείας όπως ψυχοθεραπεία και διαχείριση διαβήτη που περιλαμβάνει θεραπεία με ινσουλίνη και παρακολούθηση δίαιτας.",
    
-    jBig: "Οι ιαπωνικές τεχνικές μασάζ όπως το Σιάτσου και η Άνμα επικεντρώνονται στην ανακούφιση της έντασης και στην προώθηση της χαλάρωσης μέσω των σημείων πίεσης και του ζυμώματος. Το σιάτσου χρησιμοποιεί την πίεση των δακτύλων και της παλάμης για να ενισχύσει τη ροή ενέργειας, ενώ το Anma ενσωματώνει το ζύμωμα και το χτύπημα για χαλάρωση των μυών και βελτιωμένη κυκλοφορία. Και οι δύο μέθοδοι βασίζονται σε παραδοσιακές ιαπωνικές θεραπευτικές πρακτικές για ολιστική ευεξία.",
+    jBig: "Το μασάζ γίνεται με ζεστά πουγκιά που περιέχουν βότανα. Η τεχνική που ακολουθείται είναι μυοχαλαρωτική, καθώς η ζέστη των πουγκιών που τοποθετούνται στο σώμα, προσφέρουν μυϊκή χαλάρωση και αναζωογόνηση, απομακρύνοντας το στρες, τις έννοιες και το άγχος της καθημερινότητας.",
    
     sBig: "Το σουηδικό μασάζ είναι μια δημοφιλής θεραπευτική τεχνική που περιλαμβάνει μεγάλα εγκεφαλικά επεισόδια, ζύμωμα και κυκλικές κινήσεις για χαλάρωση των μυών, βελτίωση της κυκλοφορίας και προώθηση της συνολικής χαλάρωσης. Είναι γνωστό για την ήπια αλλά αποτελεσματική προσέγγισή του στη μείωση της έντασης και την ενίσχυση της ευεξίας.",
    
@@ -358,7 +358,7 @@ const translations = {
 
     faceBig: "Οι θεραπείες γλυπτικής προσώπου περιλαμβάνουν τεχνικές για το περίγραμμα και την ενίσχυση των χαρακτηριστικών του προσώπου, χρησιμοποιώντας μασάζ, εργαλεία ή προϊόντα για τη βελτίωση του τόνου του δέρματος, τη μείωση του πρηξίματος και την προώθηση μιας πιο σμιλεμένης εμφάνισης.",
 
-    buccBig: "Το στοματικό μασάζ προσώπου περιλαμβάνει μασάζ στα μάγουλα και τη γραμμή της γνάθου για την προώθηση της χαλάρωσης, τη βελτίωση της κυκλοφορίας και τη μείωση της έντασης στους μύες του προσώπου, ενισχύοντας το συνολικό περίγραμμα και την εμφάνιση του προσώπου.",
+    buccalBig: "Υπάρχουν πολλές καινοτόμες λύσεις ομορφιάς και ευεξίας που είναι διαθέσιμες σήμερα και μία από αυτές είναι το στοματικό μασάζ. Οι ιστοί δεν λαμβάνουν αρκετά θρεπτικά συστατικά και οξυγόνο, με αποτέλεσμα την κατακράτηση νερού, το πρήξιμο, μια θαμπή επιδερμίδα και τα πεσμένα μάγουλα και τα πόδια. Το στοματικό μασάζ επιλύει αυτά τα προβλήματα, παρέχοντας πολυάριθμα οφέλη για το δέρμα.",
 
     // about
     masseuse: "Μασέρ",
@@ -395,13 +395,13 @@ const translations = {
     hs: "Ξενοδοχεία που έχει εργαστεί",
     hotelName: "Όνομα Ξενοδοχείου",
 
-    testimonial1: "Μαρτυρία από το Ξενοδοχείο InterContinental Αθηνών",
+    testimonial1: "Ξενοδοχείο InterContinental Αθηνών",
     info1: "Η Χατία Μπακουράτζε αποτελεί μια απίστευτη προσθήκη στην ομάδα μας στο σπα. Η ειδίκευσή της σε διάφορες τεχνικές μασάζ, ιδιαίτερα το βραβευμένο μασάζ Lomi-Lomi, έχει λάβει εξαιρετικές κριτικές από τους επισκέπτες μας. Η επαγγελματικότητά της και η αφοσίωσή της στην παροχή εξαιρετικής εξυπηρέτησης την καθιστούν πραγματικό πλεονέκτημα για το ξενοδοχείο μας.",
 
-    testimonial2: "Μαρτυρία από το Masazaki στη Γλυφά",
+    testimonial2: "Masazaki στη Γλυφά",
     info2: "Από τη στιγμή που έγινε μέρος της ομάδας μας, η Χατία έχει φέρει ένα νέο επίπεδο αριστείας στις υπηρεσίες του σπα μας. Η ειδίκευσή της στο παραδοσιακό Ταϊλανδέζικο μασάζ και στις θεραπευτικές θεραπείες έχει κάνει σημαντική επίδραση στην ευημερία των πελατών μας. Συνιστούμε θερμά την Χατία για την εξαιρετική της αφοσίωση στην ολιστική υγεία και χαλάρωση.",
 
-    testimonial3: "Μαρτυρία από το Royal Mosxoy Spa",
+    testimonial3: "Royal Mosxoy Spa",
     info3: "Είμαστε ενθουσιασμένοι που έχουμε την Χατία Μπακουράτζε στην ομάδα μας. Τα επιτεύγματά της, συμπεριλαμβανομένων των κορυφαίων της διακρίσεων στο Παγκόσμιο Πρωτάθλημα Μασάζ, μιλούν από μόνα τους για το ταλέντο και την αφοσίωσή της. Οι πελάτες μας συνεχώς επαινούν τα μασάζ βαθιάς ιστού και τις θεραπείες αναζωογόνησης προσώπου που προσφέρει. Η Χατία πραγματικά αναβαθμίζει την εμπειρία μας στο σπα.",
 
     // SS
