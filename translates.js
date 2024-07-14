@@ -177,7 +177,7 @@ const translations = {
     hs: "Hotels Served",
     hotelName: "Hotel Name",
 
-    testimonial1: "Hotel InterContinental Athens",
+    testimonial1: "InterContinental Athens",
     info1: "Khatia Bakuradze has been an incredible addition to our spa team. Her expertise in various massage techniques, especially her award-winning Lomi-Lomi massage, has received rave reviews from our guests. Her professionalism and dedication to providing exceptional service make her a true asset to our hotel.",
 
     testimonial2: "Masazaki in Glifada",
