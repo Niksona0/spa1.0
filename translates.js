@@ -177,7 +177,7 @@ const translations = {
     hs: "Hotels Served",
     hotelName: "Hotel Name",
 
-    testimonial1: "InterContinental Athens",
+    testimonial1: "InterContinental",
     info1: "Khatia Bakuradze has been an incredible addition to our spa team. Her expertise in various massage techniques, especially her award-winning Lomi-Lomi massage, has received rave reviews from our guests. Her professionalism and dedication to providing exceptional service make her a true asset to our hotel.",
 
     testimonial2: "Masazaki in Glifada",
@@ -395,10 +395,10 @@ const translations = {
     hs: "Ξενοδοχεία που έχει εργαστεί",
     hotelName: "Όνομα Ξενοδοχείου",
 
-    testimonial1: "Ξενοδοχείο InterContinental Αθηνών",
+    testimonial1: "InterContinental",
     info1: "Η Χατία Μπακουράτζε αποτελεί μια απίστευτη προσθήκη στην ομάδα μας στο σπα. Η ειδίκευσή της σε διάφορες τεχνικές μασάζ, ιδιαίτερα το βραβευμένο μασάζ Lomi-Lomi, έχει λάβει εξαιρετικές κριτικές από τους επισκέπτες μας. Η επαγγελματικότητά της και η αφοσίωσή της στην παροχή εξαιρετικής εξυπηρέτησης την καθιστούν πραγματικό πλεονέκτημα για το ξενοδοχείο μας.",
 
-    testimonial2: "Masazaki στη Γλυφά",
+    testimonial2: "Masazaki in Glifada",
     info2: "Από τη στιγμή που έγινε μέρος της ομάδας μας, η Χατία έχει φέρει ένα νέο επίπεδο αριστείας στις υπηρεσίες του σπα μας. Η ειδίκευσή της στο παραδοσιακό Ταϊλανδέζικο μασάζ και στις θεραπευτικές θεραπείες έχει κάνει σημαντική επίδραση στην ευημερία των πελατών μας. Συνιστούμε θερμά την Χατία για την εξαιρετική της αφοσίωση στην ολιστική υγεία και χαλάρωση.",
 
     testimonial3: "Royal Mosxoy Spa",

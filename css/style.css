@@ -9923,7 +9923,7 @@ button {
   background-color: rgba(0, 0, 0, .75);
   overflow: auto;
   opacity: 0; /* Start with hidden opacity */
-  transition: opacity 1s ease-in; /* Transition for opacity */
+  transition: opacity .3s ease-in; /* Transition for opacity */
 }
 
 .jw-modal .movement {
@@ -9948,6 +9948,27 @@ button {
   display: flex;
 }
 
+.btn-order {
+  color: #fff !important;
+  position: absolute;
+  bottom: 20px;
+}
+
+.modal-title {
+  display: flex;
+  flex-direction: column; 
+}
+
+.modal-price {
+  color: #E09145;
+  font-size: 1.9rem;
+}
+
+.price-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
 body.jw-modal-open {
   overflow: hidden; /* Hide main scrollbar when modal window is open */
 }
@@ -9959,9 +9980,9 @@ body.jw-modal-open {
 }
 
 .jw-modal .jw-modal-body h1 {
-  max-width: 200px;
+  max-width: 100%;
   position: relative;
-  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
 .jw-modal .jw-modal-body p {
@@ -10163,6 +10184,22 @@ body.jw-modal-open {
   .jw-modal-body img {
     margin: 0 auto 25px auto;
     width: 100%;
+  }
+
+  .modal-title {
+    justify-content: space-between;
+  }
+
+  .modal-price {
+    position: relative;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+  }
+
+  .btn-order {
+    position: relative;
+    bottom: 5px;
   }
 }
 
