@@ -2036,6 +2036,14 @@ pre code {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+textarea {
+  height: 47px !important;
+  resize: none;
+  padding: .6rem 1.5rem !important;
+}
+
+
+
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     transition: none;
@@ -2061,7 +2069,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #E09145;
   opacity: 1;
 }
 

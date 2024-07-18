@@ -1166,7 +1166,7 @@
                 <div class="p-5 my-5" style="background: rgba(33, 30, 28, 0.7);">
                     <h1 data-translate="Appointment" class="text-primary text-center mb-4">Make Appointment</h1>
 
-                    <form action="https://getform.io/f/broloxka" method="POST" target="_blank">
+                    <form action="https://formsubmit.co/arudashvili.nika01@gmail.com" method="POST">
                         <div class="form-row">
                             <div class="col-sm-6">
                                 <div class="form-group">
@@ -1183,7 +1183,7 @@
                                 </div>
                             </div>
                         </div>
-                        <input type="hidden" name="_gotcha" style="display:none !important">
+                        
                         <div class="form-row">
                             <div class="col-sm-6">
                                 <div class="form-group">
@@ -1209,14 +1209,7 @@
                         <div class="form-row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <select class="custom-select bg-transparent px-4" name="service"
-                                        style="height: 47px;">
-                                        <option data-translate="selectService" id="Select A" selected>Select A Service
-                                        </option>
-                                        <option data-translate="s1" id="S1" value="1">Service 1</option>
-                                        <option data-translate="s2" id="S2" value="2">Service 1</option>
-                                        <option data-translate="s3" id="S3" value="3">Service 1</option>
-                                    </select>
+                                   <textarea name="user-service" id="service" placeholder="Service" class="bg-transparent w-100 text-light form-control"></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -1225,6 +1218,10 @@
                                     Appointment</button>
                             </div>
                         </div>
+                        <input type="hidden" name="_template" value="box">
+                        <input type="hidden" name="_autoresponse" value="Thank you for choosing our service, we will get to you as soon as possible.">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://niksona0.github.io/spa1.0/">
                     </form>
                 </div>
             </div>
