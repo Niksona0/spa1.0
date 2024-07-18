@@ -79,8 +79,8 @@ window.addEventListener('load', function() {
 
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
-        delay: 10,
-        time: 2000
+        delay: 3,
+        time: 1000
     });
 
 
