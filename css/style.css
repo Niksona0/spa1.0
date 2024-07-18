@@ -89,6 +89,13 @@ p, li {
   color: #E09145 !important;
 }
 
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+
 .modal-text p {
   max-height: 80%;
   font-size: 1.05rem;
@@ -9958,13 +9965,9 @@ button {
 
 .btn-order {
   color: #fff !important;
+  width: 100% !important;
   position: absolute;
-  bottom: 20px;
-}
-
-.modal-title {
-  display: flex;
-  flex-direction: column; 
+  bottom: 0;
 }
 
 .modal-price {
@@ -10076,6 +10079,10 @@ body.jw-modal-open {
 .hero-top-txt {
   font-family: "Poppins" !important;
   margin-bottom: 30px;
+}
+
+.time {
+  color: #062c33;
 }
 
 @media (max-width: 1500px) {
@@ -10194,20 +10201,20 @@ body.jw-modal-open {
     width: 100%;
   }
 
-  .modal-title {
-    justify-content: space-between;
-  }
-
   .modal-price {
     position: relative;
     top: 0;
     right: 0;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .btn-order {
     position: relative;
-    bottom: 5px;
+    bottom: 0px;
+  }
+
+  .price-cont {
+    flex-direction: column;
   }
 }
 
