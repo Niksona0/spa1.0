@@ -10302,5 +10302,6 @@ body.jw-modal-open {
     position: absolute;
     right: 50px;
     top: 150px;
+    transition: .5s;
   }
 }
