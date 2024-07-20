@@ -1,155 +1,102 @@
 "use strict";
 
-// open modal by id
-function openModal(id) {
+// Modal functionality
+const openModal = id => {
     const modal = document.getElementById(id);
-    modal.style.display = 'block'; // Set display to block immediately
-    setTimeout(() => {
-        modal.classList.add('open'); // Add the 'open' class after a short delay
-    }, 10); // Delay to allow CSS to apply display change before transitioning
+    modal.style.display = 'block';
+    setTimeout(() => modal.classList.add('open'), 10);
     document.body.classList.add('jw-modal-open');
-}
+};
 
-function closeModal() {
+const closeModal = () => {
     const openModal = document.querySelector('.jw-modal.open');
     if (openModal) {
         openModal.classList.remove('open');
         setTimeout(() => {
-            openModal.style.display = 'none'; // Hide the modal after transition
-            
-            // Pause and reset all videos in the modal
-            const videos = openModal.querySelectorAll('video');
-            videos.forEach(video => {
+            openModal.style.display = 'none';
+            openModal.querySelectorAll('video').forEach(video => {
                 video.pause();
-                video.currentTime = 0; // Reset video to the beginning
+                video.currentTime = 0;
             });
-        }, 800); // Delay must match the CSS transition duration
-        
+        }, 800);
         document.body.classList.remove('jw-modal-open');
     }
-}
+};
 
-window.addEventListener('load', function() {
-    // Close modals on background click
+window.addEventListener('load', () => {
     document.addEventListener('click', event => {
-        if (event.target.classList.contains('jw-modal')) {
-            closeModal();
-        }
+        if (event.target.classList.contains('jw-modal')) closeModal();
     });
 });
 
+// jQuery-based functionality
 (function ($) {
-    // Your jQuery logic here if needed
-})(jQuery);
-
-
-(function ($) {
-
-    // Dropdown on mouse hover
-    $(document).ready(function () {
-        function toggleNavbarMethod() {
+    $(document).ready(() => {
+        const toggleNavbarMethod = () => {
             if ($(window).width() > 992) {
-                $('.navbar .dropdown').on('mouseover', function () {
-                    $('.dropdown-toggle', this).trigger('click');
-                }).on('mouseout', function () {
-                    $('.dropdown-toggle', this).trigger('click').blur();
-                });
+                $('.navbar .dropdown')
+                    .on('mouseover', function () {
+                        $('.dropdown-toggle', this).trigger('click');
+                    })
+                    .on('mouseout', function () {
+                        $('.dropdown-toggle', this).trigger('click').blur();
+                    });
             } else {
-                $('.navbar .dropdown').off('mouseover').off('mouseout');
+                $('.navbar .dropdown').off('mouseover mouseout');
             }
-        }
+        };
+
         toggleNavbarMethod();
         $(window).resize(toggleNavbarMethod);
-    });
-    
-    
-    // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
-    });
-    $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
-        return false;
-    });
 
+        $(window).scroll(() => {
+            $('.back-to-top').toggle($(window).scrollTop() > 100);
+        });
 
-    // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 3,
-        time: 1000
-    });
+        $('.back-to-top').click(() => {
+            $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
+            return false;
+        });
 
+        $('[data-toggle="counter-up"]').counterUp({ delay: 3, time: 1000 });
 
-    // Date and time picker
-    $('#date').datetimepicker({
-        format: 'L'
-    });
-    $('#time').datetimepicker({
-        format: 'LT'
-    });
+        $('#date').datetimepicker({ format: 'L' });
+        $('#time').datetimepicker({ format: 'LT' });
 
+        const owlCarouselSettings = {
+            autoplay: true,
+            smartSpeed: 1500,
+            loop: true,
+            dots: false,
+            nav: false
+        };
 
-    // Service carousel
-    $(".service-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        loop: true,
-        dots: false,
-        nav : false,
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:2
-            },
-            768:{
-                items:3
-            },
-            992:{
-                items:4
-            },
-            1200:{
-                items:5
+        $(".service-carousel").owlCarousel({
+            ...owlCarouselSettings,
+            responsive: {
+                0: { items: 1 },
+                576: { items: 2 },
+                768: { items: 3 },
+                992: { items: 4 },
+                1200: { items: 5 }
             }
-        }
-    });
+        });
 
-
-    // Pricing carousel
-    $(".pricing-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        margin: 30,
-        loop: true,
-        dots: false,
-        nav : false,
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:1
-            },
-            768:{
-                items:2
+        $(".pricing-carousel").owlCarousel({
+            ...owlCarouselSettings,
+            margin: 30,
+            responsive: {
+                0: { items: 1 },
+                576: { items: 1 },
+                768: { items: 2 }
             }
-        }
-    });
+        });
 
-
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        margin: 30,
-        dots: true,
-        loop: true,
-        items: 1
+        $(".testimonial-carousel").owlCarousel({
+            ...owlCarouselSettings,
+            margin: 30,
+            dots: true,
+            items: 1
+        });
     });
-    
 })(jQuery);
