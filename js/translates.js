@@ -39,7 +39,7 @@ const translations = {
     deepTissueMassage: "Deep tissue massage targets deep muscles to relieve tension, ease pain, and enhance flexibility.",
 
     medical: "Therapeutic massage",
-    medicalMassage: "Therapeutic massage include medications, surgeries, and preventive care for managing and curing diseases.",
+    medicalMassage: "Therapeutic massage is for the elimination of pain in the muscle skeletal system.",
 
     japanese: "Herbal Ball Massage",
     japaneseMassage: "Herbal ball massage uses heated herbal compresses to relieve muscle pain and enhance relaxation.",
@@ -115,7 +115,7 @@ const translations = {
 
     headBackBig: "Focusing on tension primarily in the back,neck, shoulders and head, this massage is designed to relieve deep-seated stress by combining specially blended massage oils chosen to suit your individual needs an exotic mix of warmth, texture and aroma tempts the body into blissful relaxation.",
     
-    tBig: "Thai massage combines acupressure, yoga-like stretching, and Ayurvedic principles to release muscle tension, enhance flexibility, and promote overall relaxation and well-being. Therapists use hands, elbows, knees, and feet to apply pressure along energy lines, providing both physical and mental rejuvenation.",
+    tBig: "A great way to activate your mind and body, Thai massage works like yoga. Improves blood circulation, A natural treatment for muscle and body aches. Improves sleep pattern and it reduces stress and anxiety. ",
    
     cBig: "Cupping therapy involves placing cups on the skin to create suction. This suction helps increase blood flow to the area, promoting healing and relieving muscle tension. It's often used to treat pain, inflammation, and improve circulation. The cups can be left in place or moved around depending on the desired therapeutic effect.",
 
@@ -336,7 +336,7 @@ const translations = {
 
     headBackBig: "Εστιάζοντας στην ένταση κυρίως στην πλάτη, το λαιμό, τους ώμους και το κεφάλι, αυτό το μασάζ έχει σχεδιαστεί για να ανακουφίζει από το βαθύ στρες συνδυάζοντας ειδικά αναμεμειγμένα λάδια μασάζ που επιλέγονται για να ταιριάζουν στις ατομικές σας ανάγκες, ένα εξωτικό μείγμα ζεστασιάς, υφής και αρώματος που δελεάζει το σώμα σε ευτυχία. χαλάρωση.",
     
-    tBig: "Το ταϊλανδέζικο μασάζ συνδυάζει το βελονισμό, τις διατάσεις που μοιάζουν με γιόγκα και τις αρχές της Αγιουρβέδα για να απελευθερώσει την ένταση των μυών, να ενισχύσει την ευελιξία και να προωθήσει τη συνολική χαλάρωση και ευεξία. Οι θεραπευτές χρησιμοποιούν τα χέρια, τους αγκώνες, τα γόνατα και τα πόδια για να ασκήσουν πίεση κατά μήκος των ενεργειακών γραμμών, παρέχοντας τόσο σωματική όσο και πνευματική αναζωογόνηση.",
+    tBig: "Ένας υπέροχος τρόπος για να ενεργοποιήσετε το μυαλό και το σώμα σας Το ταϊλανδέζικο μασάζ λειτουργεί όπως η γιόγκα. Βελτιώνει την κυκλοφορία του αίματος, Μια φυσική θεραπεία για πόνους μυών και σώματος, Βελτιώνει το μοτίβο ύπνου, Μειώνει το στρες και το άγχος.",
    
     cBig: "Η θεραπεία βεντούζας περιλαμβάνει την τοποθέτηση κυπέλλων στο δέρμα για τη δημιουργία αναρρόφησης. Αυτή η αναρρόφηση βοηθά στην αύξηση της ροής του αίματος στην περιοχή, προάγοντας την επούλωση και ανακουφίζοντας την ένταση των μυών. Συχνά χρησιμοποιείται για τη θεραπεία του πόνου, της φλεγμονής και τη βελτίωση της κυκλοφορίας. Τα κύπελλα μπορούν να μείνουν στη θέση τους ή να μετακινηθούν ανάλογα με το επιθυμητό θεραπευτικό αποτέλεσμα.",
 
