@@ -38,8 +38,8 @@ const translations = {
     deepTissue: "Deep tissue",
     deepTissueMassage: "Deep tissue massage targets deep muscles to relieve tension, ease pain, and enhance flexibility.",
 
-    medical: "Medical treatments",
-    medicalMassage: "Medical treatments include medications, surgeries, and preventive care for managing and curing diseases.",
+    medical: "Therapeutic massage",
+    medicalMassage: "Therapeutic massage include medications, surgeries, and preventive care for managing and curing diseases.",
 
     japanese: "Herbal Ball Massage",
     japaneseMassage: "Herbal ball massage uses heated herbal compresses to relieve muscle pain and enhance relaxation.",
@@ -105,13 +105,15 @@ const translations = {
 
     dBig: "Deep tissue massage targets deep muscle layers to relieve chronic tension and pain. Using slow, firm strokes, it helps break up scar tissue and improve blood flow. Ideal for muscle injuries or chronic pain, it promotes better mobility and muscle health. The focused pressure and deep techniques release muscle knots, leaving you feeling flexible and relaxed.",
     
-    mBig: " Medical treatments like medications, surgeries, therapies, and procedures manage, cure, or alleviate symptoms of illnesses. Examples include cardiovascular care with medications and surgeries, cancer treatments such as chemotherapy or surgery, mental health therapies like psychotherapy, and diabetes management involving insulin therapy and diet monitoring.",
+    mBig: " Therapeutic massage is for the elimination of pain in the muscle skeletal system with the help of this treatment not only  Does the body become healthy, but also restores muscle weakness and skin atrophy. Moreover, it takes part in the restoration of the hormonal balance, and it improves the blood circulation in the brain. The purpose of this treatment is to feel energized and renewed therapeutic massage is used to combat illnesses, such as pain in the neck and back area, headaches and osteochondrosis.",
    
     jBig: "The massage is done with hot packs containing herbs. The technique followed is muscle relaxing, as the heat of the bags placed on the body, offer muscle relaxation and rejuvenation, removing the stress, concepts and anxiety of everyday life.",
    
     sBig: "Swedish massage is a popular therapeutic technique involving long strokes, kneading, and circular movements to relax muscles, improve circulation, and promote overall relaxation. It's known for its gentle yet effective approach in reducing tension and enhancing well-being.",
    
     hBig: "Hot stone massage involves placing heated stones on specific points of the body to relax muscles and promote relaxation. Therapists may also use the stones to massage the body, combining heat with pressure to alleviate tension and improve circulation. It's known for its soothing effects and ability to enhance overall well-being.",
+
+    headBackBig: "Focusing on tension primarily in the back,neck, shoulders and head, this massage is designed to relieve deep-seated stress by combining specially blended massage oils chosen to suit your individual needs an exotic mix of warmth, texture and aroma tempts the body into blissful relaxation.",
     
     tBig: "Thai massage combines acupressure, yoga-like stretching, and Ayurvedic principles to release muscle tension, enhance flexibility, and promote overall relaxation and well-being. Therapists use hands, elbows, knees, and feet to apply pressure along energy lines, providing both physical and mental rejuvenation.",
    
@@ -324,13 +326,15 @@ const translations = {
 
     dBig: "Το βαθύ μασάζ ιστών στοχεύει στα βαθιά μυϊκά στρώματα για να ανακουφίσει τη χρόνια ένταση και τον πόνο. Χρησιμοποιώντας αργές, σταθερές κινήσεις, βοηθά στη διάσπαση του ουλώδους ιστού και στη βελτίωση της ροής του αίματος. Ιδανικό για μυϊκούς τραυματισμούς ή χρόνιους πόνους, προάγει την καλύτερη κινητικότητα και την υγεία των μυών. Η εστιασμένη πίεση και οι τεχνικές βαθιάς απελευθερώνουν τους μυϊκούς κόμπους, αφήνοντάς σας να αισθάνεστε ευέλικτοι και χαλαροί.",
     
-    mBig: "Ιατρικές θεραπείες όπως φάρμακα, χειρουργικές επεμβάσεις, θεραπείες και διαδικασίες διαχειρίζονται, θεραπεύουν ή ανακουφίζουν τα συμπτώματα ασθενειών. Παραδείγματα περιλαμβάνουν καρδιαγγειακή φροντίδα με φάρμακα και χειρουργικές επεμβάσεις, θεραπείες καρκίνου όπως χημειοθεραπεία ή χειρουργική επέμβαση, θεραπείες ψυχικής υγείας όπως ψυχοθεραπεία και διαχείριση διαβήτη που περιλαμβάνει θεραπεία με ινσουλίνη και παρακολούθηση δίαιτας.",
+    mBig: "Το θεραπευτικό μασάζ είναι για την εξάλειψη του πόνου στο μυϊκό σκελετικό σύστημα με τη βοήθεια αυτής της θεραπείας όχι μόνο Γίνεται υγιές το σώμα, αλλά και αποκαθιστά τη μυϊκή αδυναμία και την ατροφία του δέρματος. Επιπλέον, συμμετέχει στην αποκατάσταση της ορμονικής ισορροπίας και βελτιώνει την κυκλοφορία του αίματος στον εγκέφαλο. Ο σκοπός αυτής της θεραπείας είναι να αισθάνεστε γεμάτοι ενέργεια και το ανανεωμένο θεραπευτικό μασάζ χρησιμοποιείται για την καταπολέμηση ασθενειών, όπως πόνος στον αυχένα και την πλάτη, πονοκεφάλους και οστεοχονδρωσία.",
    
     jBig: "Το μασάζ γίνεται με ζεστά πουγκιά που περιέχουν βότανα. Η τεχνική που ακολουθείται είναι μυοχαλαρωτική, καθώς η ζέστη των πουγκιών που τοποθετούνται στο σώμα, προσφέρουν μυϊκή χαλάρωση και αναζωογόνηση, απομακρύνοντας το στρες, τις έννοιες και το άγχος της καθημερινότητας.",
    
     sBig: "Το σουηδικό μασάζ είναι μια δημοφιλής θεραπευτική τεχνική που περιλαμβάνει μεγάλα εγκεφαλικά επεισόδια, ζύμωμα και κυκλικές κινήσεις για χαλάρωση των μυών, βελτίωση της κυκλοφορίας και προώθηση της συνολικής χαλάρωσης. Είναι γνωστό για την ήπια αλλά αποτελεσματική προσέγγισή του στη μείωση της έντασης και την ενίσχυση της ευεξίας.",
    
     hBig: "Το μασάζ με ζεστές πέτρες περιλαμβάνει την τοποθέτηση θερμαινόμενων λίθων σε συγκεκριμένα σημεία του σώματος για χαλάρωση των μυών και προώθηση της χαλάρωσης. Οι θεραπευτές μπορούν επίσης να χρησιμοποιήσουν τις πέτρες για να κάνουν μασάζ στο σώμα, συνδυάζοντας τη θερμότητα με την πίεση για την ανακούφιση της έντασης και τη βελτίωση της κυκλοφορίας. Είναι γνωστό για τα καταπραϋντικά του αποτελέσματα και την ικανότητά του να βελτιώνει τη συνολική ευεξία.",
+
+    headBackBig: "Εστιάζοντας στην ένταση κυρίως στην πλάτη, το λαιμό, τους ώμους και το κεφάλι, αυτό το μασάζ έχει σχεδιαστεί για να ανακουφίζει από το βαθύ στρες συνδυάζοντας ειδικά αναμεμειγμένα λάδια μασάζ που επιλέγονται για να ταιριάζουν στις ατομικές σας ανάγκες, ένα εξωτικό μείγμα ζεστασιάς, υφής και αρώματος που δελεάζει το σώμα σε ευτυχία. χαλάρωση.",
     
     tBig: "Το ταϊλανδέζικο μασάζ συνδυάζει το βελονισμό, τις διατάσεις που μοιάζουν με γιόγκα και τις αρχές της Αγιουρβέδα για να απελευθερώσει την ένταση των μυών, να ενισχύσει την ευελιξία και να προωθήσει τη συνολική χαλάρωση και ευεξία. Οι θεραπευτές χρησιμοποιούν τα χέρια, τους αγκώνες, τα γόνατα και τα πόδια για να ασκήσουν πίεση κατά μήκος των ενεργειακών γραμμών, παρέχοντας τόσο σωματική όσο και πνευματική αναζωογόνηση.",
    
