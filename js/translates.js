@@ -146,7 +146,7 @@ const translations = {
     // about 
     masseuse: "Masseuse",
     khBakuradze: "Khatia Bakuradze",
-    aboutKhatia: "Certified Skilled massage therapist.",
+    aboutKhatia: "Certified specialized massage therapist;",
     qualifications: "Massage coach.",
     fPlace: "15 years of work experience.",
     sPlace: "Specializing in various techniques such as:",
@@ -156,7 +156,6 @@ const translations = {
     tmas: "Thai massage",
     cumasag: "Cupping Therapy",
     thermas: "Therapeiutic Massage",
-    wwvh: "Worked with various hotels;",
     mhc: "Many happy customers;",
     wowmc: "Winner of World Massage Championship;",
     cN: "Contact Now",
