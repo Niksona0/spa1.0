@@ -139,7 +139,7 @@ const translations = {
 
     guaBig: "Gua sha massage involves scraping the skin with a tool to improve circulation and relieve muscle tension. It's used to reduce inflammation, promote healing, and enhance overall well-being.",
 
-    faceBig: "Face sculpture treatments involve techniques to contour and enhance facial features, using massages, tools, or products to improve skin tone, reduce puffiness, and promote a more sculpted appearance.",
+    faceBig: "Advantages of the Sculptural Face Lifting technique, It perfectly treats the sagging of the face, It helps to straighten the muscles in a natural way, It restores muscle tone and elasticity to normal, It tightens and smooths the skin restoring the oval of the face Improves blood circulation and lymph flow Activates metabolism and tissue nutrition, Eliminates spasms and burns",
 
     buccalBig: "There are many innovative beauty and wellness solutions available today and one of these is buccal massage. Tissues don’t receive enough nutrients and oxygen, resulting in water retention, puffiness, a dull complexion, and drooping cheeks and jowls. Buccal massage resolves these issues, providing numerous skin benefits.",
 
@@ -151,10 +151,11 @@ const translations = {
     fPlace: "15 years of work experience.",
     sPlace: "Specializing in various techniques such as:",
     certified: "Certified Masseuse",
-    bom: "Body oil massage",
+    bom: "Facial Massage",
     gusha: "Gua Sha",
     tmas: "Thai massage",
-    cumasag: "Cupping",
+    cumasag: "Cupping Therapy",
+    thermas: "Therapeiutic Massage",
     wwvh: "Worked with various hotels;",
     mhc: "Many happy customers;",
     wowmc: "Winner of World Massage Championship;",
@@ -360,7 +361,7 @@ const translations = {
 
     guaBig: "Το μασάζ Gua sha περιλαμβάνει ξύσιμο του δέρματος με ένα εργαλείο για τη βελτίωση της κυκλοφορίας και την ανακούφιση της μυϊκής έντασης. Χρησιμοποιείται για τη μείωση της φλεγμονής, την προώθηση της επούλωσης και τη βελτίωση της συνολικής ευεξίας.",
 
-    faceBig: "Οι θεραπείες γλυπτικής προσώπου περιλαμβάνουν τεχνικές για το περίγραμμα και την ενίσχυση των χαρακτηριστικών του προσώπου, χρησιμοποιώντας μασάζ, εργαλεία ή προϊόντα για τη βελτίωση του τόνου του δέρματος, τη μείωση του πρηξίματος και την προώθηση μιας πιο σμιλεμένης εμφάνισης.",
+    faceBig: "Πλεονεκτήματα της τεχνικής Sculptural Face Lifting, Αντιμετωπίζει εξαιρετικά τη χαλάρωση του προσώπου, Βοηθάει στην ανόρθωση των μυών με φυσικό τρόπο, Επαναφέρει στο φυσιολογικό τον μυϊκό τόνο και την ελαστικότητα, Συσφίγγει και λειαίνει το δέρμα αποκαθιστώντας το οβάλ του προσώπου, Βελτιώνει την κυκλοφορία του αίματος και τη λεμφική ροή, Ενεργοποιεί το μεταβολισμό και τη θρέψη των ιστών, Εξαφανίζει σπασμούς και μπλοκαρίσματα",
 
     buccalBig: "Υπάρχουν πολλές καινοτόμες λύσεις ομορφιάς και ευεξίας που είναι διαθέσιμες σήμερα και μία από αυτές είναι το στοματικό μασάζ. Οι ιστοί δεν λαμβάνουν αρκετά θρεπτικά συστατικά και οξυγόνο, με αποτέλεσμα την κατακράτηση νερού, το πρήξιμο, μια θαμπή επιδερμίδα και τα πεσμένα μάγουλα και τα πόδια. Το στοματικό μασάζ επιλύει αυτά τα προβλήματα, παρέχοντας πολυάριθμα οφέλη για το δέρμα.",
 
@@ -376,6 +377,7 @@ const translations = {
     gusha: "Gua Sha;",
     tmas: "Ταϊλανδέζικο μασάζ;",
     cumasag: "βεντούζα;",
+    thermas: "Θεραπευτικό Μασάζ",
     wwvh: "Συνεργάστηκε με διάφορα ξενοδοχεία.",
     mhc: "Πολλοί ευχαριστημένοι πελάτες.",
     wowmc: "Νικητής του Παγκόσμιου Πρωταθλήματος Μασάζ.",
